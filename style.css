@@ -1,0 +1,35 @@
+h3
+{
+    font-size: 30px !important;
+}
+
+canvas
+{
+    animation-name: border;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border
+{
+    from{
+        box-shadow: 1px 1px 38px red;
+    }
+    to{box-shadow: 1px 1px 38px blue;
+    }
+}
+
+.btn-danger:hover
+{
+    background-color: blueviolet;
+}
+
+.btn-success:hover
+{
+    background-color:aqua;
+}
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
